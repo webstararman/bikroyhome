@@ -1,0 +1,474 @@
+/* Primary-Start */
+body,h1,h2,h3,h4,h5,h6,a,p,span{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Primary-End */
+/* Header-start */
+.main-header{
+    background: #149777;
+}
+.main-header .header-logo a img {
+	width: 170px;
+}
+
+.main-header .header-left-button a {
+	padding: 7px 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 800;
+	border-radius: 4px;
+	/* background: #007168; */
+	line-height: 32px;
+	margin: 0px 12px;
+}
+.main-header .header-left-button .bangla-button{
+    padding: 7px 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 800;
+	border-radius: 4px;
+	background: transparent;
+	line-height: 32px;
+	margin: 0px -2px;
+    border: 1px solid #007168;
+}
+.header-right-button a {
+	text-decoration: none;
+	font-size: 14px;
+	padding: 14px;
+	background: #ffc800;
+	color: #673500;
+	font-weight: 800;
+    line-height: 32px;
+}
+/* .header-logo-main {
+	text-align: right;
+} */
+.header-right-icon{
+    text-align: right;
+}
+.header-right-icon a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 12px;
+	font-size: 14px;
+	line-height: 20.5667px;
+	font-weight: 400;
+	margin-right: 12px;
+    line-height: 32px;
+}
+.header-right-icon span {
+	margin-right: 5px;
+	font-size: 20px;
+	font-weight: 800;
+    line-height: 32px;
+}
+/* Header-End */
+
+/* header-search-section-Start */
+.header-search-section{
+	background-color:#149777;
+}
+.all-bangladesh .search-center-icon a {
+	padding: 7px 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	border-radius: 4px;
+	background: #10846f;
+	line-height: 32px;
+	margin: 0px 12px;
+}
+/* Header-search-start */
+.example {
+	position: relative;
+}
+.search-righ-form .focus:focus {
+	outline: none;
+}
+.search-section .search-righ-form {
+	position: relative;
+}
+.search-bottom {
+	padding-bottom: 15px;
+}
+.search-section{
+	position: relative;
+}
+.search-bottom::after {
+	content: "";
+	height: 1px;
+	width: 1025px;
+	background: #e7edee;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+form.example::after {
+	content: "";
+	clear: both;
+	display: table;
+
+  }
+  form.example input[type="text"] {
+	padding: 16px 10px;
+	font-size: 17px;
+	border: 1px solid #707676;
+	float: left;
+	width: 796px;
+	background: white;
+	border-radius: 50px;
+}
+form.example button {
+	float: left;
+	width: 50px;
+	padding: 10px;
+	background: #ffc800;
+	color: #673500;
+	font-size: 17px;
+	border: 1px solid #ffc800;
+	border-left: none;
+	cursor: pointer;
+	border-radius: 50px;
+	position: absolute;
+	top: 4px;
+	right: 5px;
+	height: 50px;
+	line-height: 0px;
+}
+/* Header-search-end */
+/* header-search-section-Start */
+
+/* Product-section-start */
+.category p {
+	font-size: 14px;
+	color: #2F3432;
+	line-height: 24px;
+	font-weight: 800;
+}
+.box-icon a span i {
+	font-size: 50px;
+	color: #59bcd1;
+}
+.box-content a:nth-child(1){
+	text-decoration: none;
+	color: #2F3432;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 27.4333px;
+	display: block;
+}
+.box-icon-car a span i{
+	font-size: 50px;
+	color: #008d70;
+}
+.box-icon-home a span i{
+	color:#2e4a74;
+}
+.box-icon-computer a span i{
+	color:#2e4a74;
+}
+.pets a span i{
+	color:#bc9e68;
+}
+.property a span i{
+	color:#f05a4e;
+}
+.foot a span i{
+	color:#7f727b;
+}
+.women a span i{
+	color:#ffce28;
+	
+}
+.mens a span i{
+	color:#63acf1;
+	
+}
+.agre a span i{
+	color:#d2b879;
+	
+}
+
+.box-content a:nth-child(2){
+	text-decoration: none;
+	color: #707676;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20.5667px;
+	display: block;
+}
+/* Product-section-end */
+
+/* Start making-section-Start */
+/* .money-left-icon span {
+	font-size: 60px;
+	color: #3db39e;
+	background: #f3f6f5;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	display: inline-block;
+	line-height: 100px;
+	text-align: center;
+} */
+.money-content {
+	margin-left: 40px;
+}
+.money-content h3 {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 800;
+	color: #2F3432;
+}
+.money-content p {
+	color: #424E4E;
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: 400;
+}
+.money-content a {
+	background: #ffc800;
+	text-decoration: none;
+	font-size: 14px;
+	display: inline-block;
+	font-weight: 400;
+	padding: 12px 16px;
+}
+.money-content a{
+	background: #ffc800;
+	text-decoration: none;
+	font-size: 14px;
+	display: inline-block;
+	font-weight: 800;
+	padding: 12px 16px;
+	color: #673500;
+	border-radius: 50px;
+}
+.money-main {
+	box-shadow: 0 2px 16px 0 rgba(0,0,0,.1);
+	border-radius: 8px;
+	padding: 40px 0 25px 20px;
+}
+.money-content.m-c-second a {
+	background: #0074ba;
+	color: white;
+	border-radius: 50px;
+}
+/* Money-secton-End */
+
+/* About Bikroy-start */
+.about-bikroy-content h3 {
+	font-size: 16px;
+	line-height: 27.4333px;
+	color: #707676;
+	font-weight: 700;
+}
+.about-bikroy-content p {
+	color: #707676;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+}
+.about-bikroy-content details summary {
+	color: #707676;
+	font-size: 14px;
+	line-height: 16.1px;
+}
+.monery-second-heading p {
+	margin-left: 10px;
+	font-size: 12px;
+	background: #0074ba;
+	color: white;
+	border-radius: 8px;
+	padding: 0px 15px 0 0;
+}
+.monery-second-heading p span {
+    color: #0074ba;
+	background: white;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	line-height: 20px;
+	border-radius: 50px;
+	text-align: center;
+	border: 1px solid #0074ba;
+	margin-left: 7px;
+	cursor: pointer;
+}
+/* About Bikroy-End */
+
+
+/* Responsive-Start */
+@media (max-width:991px) {
+	/* Header-start */
+    .header-right-button {
+        width: 140px;
+    }
+    .header-left-button {
+        margin-left: 45px;
+    }
+	/* Header-End */
+	form.example button {
+		right: -40px;
+	}
+	form.example input[type="text"] {
+		width: 745px;
+
+	}
+	.m-c-second {
+		padding-right: 20px;
+	}
+	.box-icon {
+		text-align: center;
+	}
+	.box-content {
+		text-align: center;
+	}
+}
+@media (max-width:767px) {
+    .header-right-icon {
+        text-align: left;
+        margin-top: 18px;
+    }
+    .header-right-button {
+        width: 210px;
+        text-align:right;
+        margin-top: 20px;
+    }
+    .header-right-button a {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+	/* Header-End */
+	form.example input[type="text"] {
+		width: 470px;
+	}
+	form.example button {
+		right: 10px;
+	}
+
+	/* box-img-start */
+	.money-main {
+		display:block !important;
+	}
+	.money-left-icon {
+		text-align: center;
+	}
+	.money-content {
+		text-align: center;
+		margin-left: 0;
+	}
+	.monery-second-heading p {
+		margin-top: 4px;
+	}
+	/* box-img-End */
+}
+@media (max-width:575px) {
+	 .header-logo-main {
+			width: 50% !important;
+		}
+		.header-logo-main-button {
+			width: 50% !important;
+			text-align: right;
+		}
+		.header-left-button {
+			margin-left:0px;
+		}
+		.header-right-button {
+			width: 100%;
+			text-align: right;
+			margin-top: 20px;
+		}
+		.box-top {
+			width: 50%;
+		}
+	
+}
+@media (max-width:538px) {
+	.monery-second-heading p {
+		display: inline-block;
+	}
+	.monery-second-heading {
+		display: block !important;
+	}
+	
+}
+@media (max-width:490px) {
+	form.example input[type="text"] {
+		width: 390px;
+		padding: 15px 10px;
+	}
+	
+}
+@media (max-width:400px) {
+   
+	form.example button {
+		width: 35px;
+		height: 35px;
+		line-height: 0;
+	}
+	form.example input[type="text"] {
+		width: 360px;
+		padding: 10px 10px;
+	}
+}
+@media (max-width:395px) {
+   
+		.header-right-icon span {
+			margin-right: 3px;
+	
+		}
+}
+@media (max-width:388px) {
+   
+		.header-right-icon a {
+			margin-left: 0px;
+		}
+}
+@media (max-width:360px) {
+   
+	    .header-right-icon span {
+				margin-right: 0px;
+				font-size: 19px;
+				font-weight: 800;
+				line-height: 30px;
+			}
+			.header-logo-main-button {
+				width: 60% !important;
+				text-align: right;
+			}
+			.header-logo-main {
+				width: 40% !important;
+			}
+			.header-right-button {
+				width: 100%;
+				text-align: right;
+				margin-top: 20px;
+				width: 125px;
+	     	} 
+			 form.example input[type="text"] {
+				width: 335px;
+				padding: 10px 10px;
+			}
+} 
+@media (max-width:335px) {
+   
+	.header-right-button a {
+		font-size: 12px;
+		padding: 8px;
+	}
+	.header-right-button {
+		width: 112px;
+	}
+	form.example input[type="text"] {
+		width: 310px;
+	}
+}
+
+/* Responsive-End*/
